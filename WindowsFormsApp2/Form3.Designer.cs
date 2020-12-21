@@ -114,6 +114,7 @@
             this.TXTpass.ForeColor = System.Drawing.Color.DimGray;
             this.TXTpass.Location = new System.Drawing.Point(315, 257);
             this.TXTpass.Name = "TXTpass";
+            this.TXTpass.PasswordChar = '*';
             this.TXTpass.Size = new System.Drawing.Size(408, 37);
             this.TXTpass.TabIndex = 5;
             this.TXTpass.Text = "CONFIRMAR CONTRASEÑA";

@@ -229,5 +229,14 @@
   <ItemGroup>
     <None Include="Resources\64764779-la-cara-de-santa-claus-llorando-la-expresión-facial-ilustraciones-de-vectores-de-dibujos-animados-aisla.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\virus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2020-12-20 at 6.30.41 PM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2020-12-20 at 6.30.41 PM %281%29.jpeg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

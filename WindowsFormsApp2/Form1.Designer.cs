@@ -80,11 +80,11 @@
             // 
             // pipeDown
             // 
-            this.pipeDown.BackColor = System.Drawing.Color.Transparent;
-            this.pipeDown.Image = global::WindowsFormsApp2.Properties.Resources.pixel_art_vector_coronavirus_bacteria_600w_1685377870;
-            this.pipeDown.Location = new System.Drawing.Point(176, 482);
+            this.pipeDown.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pipeDown.Image = global::WindowsFormsApp2.Properties.Resources.virus;
+            this.pipeDown.Location = new System.Drawing.Point(191, 455);
             this.pipeDown.Name = "pipeDown";
-            this.pipeDown.Size = new System.Drawing.Size(116, 114);
+            this.pipeDown.Size = new System.Drawing.Size(116, 141);
             this.pipeDown.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pipeDown.TabIndex = 2;
             this.pipeDown.TabStop = false;
@@ -101,19 +101,20 @@
             // 
             // pipeTop
             // 
-            this.pipeTop.BackColor = System.Drawing.Color.Transparent;
-            this.pipeTop.Image = global::WindowsFormsApp2.Properties.Resources.pixel_art_vector_coronavirus_bacteria_600w_1685377870;
-            this.pipeTop.Location = new System.Drawing.Point(175, 0);
+            this.pipeTop.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pipeTop.Image = global::WindowsFormsApp2.Properties.Resources.virus;
+            this.pipeTop.Location = new System.Drawing.Point(205, 0);
             this.pipeTop.Name = "pipeTop";
-            this.pipeTop.Size = new System.Drawing.Size(117, 111);
+            this.pipeTop.Size = new System.Drawing.Size(117, 139);
             this.pipeTop.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pipeTop.TabIndex = 0;
             this.pipeTop.TabStop = false;
             // 
             // covid1
             // 
-            this.covid1.Image = global::WindowsFormsApp2.Properties.Resources.pixel_art_vector_coronavirus_bacteria_600w_1685377870;
-            this.covid1.Location = new System.Drawing.Point(320, 0);
+            this.covid1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.covid1.Image = global::WindowsFormsApp2.Properties.Resources.virus;
+            this.covid1.Location = new System.Drawing.Point(369, 0);
             this.covid1.Name = "covid1";
             this.covid1.Size = new System.Drawing.Size(116, 139);
             this.covid1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -122,9 +123,9 @@
             // 
             // covid2
             // 
-            this.covid2.BackColor = System.Drawing.Color.Transparent;
-            this.covid2.Image = global::WindowsFormsApp2.Properties.Resources.pixel_art_vector_coronavirus_bacteria_600w_1685377870;
-            this.covid2.Location = new System.Drawing.Point(320, 422);
+            this.covid2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.covid2.Image = global::WindowsFormsApp2.Properties.Resources.virus;
+            this.covid2.Location = new System.Drawing.Point(369, 422);
             this.covid2.Name = "covid2";
             this.covid2.Size = new System.Drawing.Size(116, 174);
             this.covid2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -133,22 +134,22 @@
             // 
             // covid3
             // 
-            this.covid3.BackColor = System.Drawing.Color.Transparent;
-            this.covid3.Image = global::WindowsFormsApp2.Properties.Resources.pixel_art_vector_coronavirus_bacteria_600w_1685377870;
-            this.covid3.Location = new System.Drawing.Point(467, 0);
+            this.covid3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.covid3.Image = global::WindowsFormsApp2.Properties.Resources.virus;
+            this.covid3.Location = new System.Drawing.Point(529, 0);
             this.covid3.Name = "covid3";
-            this.covid3.Size = new System.Drawing.Size(100, 204);
+            this.covid3.Size = new System.Drawing.Size(100, 163);
             this.covid3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.covid3.TabIndex = 8;
             this.covid3.TabStop = false;
             // 
             // covid4
             // 
-            this.covid4.BackColor = System.Drawing.Color.Transparent;
-            this.covid4.Image = global::WindowsFormsApp2.Properties.Resources.pixel_art_vector_coronavirus_bacteria_600w_1685377870;
-            this.covid4.Location = new System.Drawing.Point(467, 370);
+            this.covid4.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.covid4.Image = global::WindowsFormsApp2.Properties.Resources.virus;
+            this.covid4.Location = new System.Drawing.Point(529, 398);
             this.covid4.Name = "covid4";
-            this.covid4.Size = new System.Drawing.Size(100, 226);
+            this.covid4.Size = new System.Drawing.Size(100, 198);
             this.covid4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.covid4.TabIndex = 9;
             this.covid4.TabStop = false;
@@ -158,8 +159,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.Pixel_art_Christmas_houses_with_Santas_sleigh__pv;
-            this.ClientSize = new System.Drawing.Size(863, 764);
+            this.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.WhatsApp_Image_2020_12_20_at_6_30_41_PM__1_;
+            this.ClientSize = new System.Drawing.Size(629, 764);
             this.Controls.Add(this.covid4);
             this.Controls.Add(this.covid3);
             this.Controls.Add(this.covid2);
@@ -169,7 +170,9 @@
             this.Controls.Add(this.pipeDown);
             this.Controls.Add(this.ground);
             this.Controls.Add(this.pipeTop);
+            this.DoubleBuffered = true;
             this.Name = "Form1";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.Text = "Form1";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.gamekeyisdown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.gamekeyisup);
